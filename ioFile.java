@@ -43,7 +43,7 @@ public class ioFile {
 		try 
 		{
 			File f = new File("Athletes.txt");
-			FileWriter fw = new FileWriter(f);
+			FileWriter fw = new FileWriter(f,true);
 			 PrintWriter pw = new PrintWriter(fw);
 			 for(YourObjectAthletes ath: listAth) 
 			 {
