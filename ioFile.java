@@ -20,7 +20,7 @@ public class ioFile {
 	            while(line != null) 
 	            {
 	            	  String arr[] = line.split("[|]+");
-	            	  YourObjectAthletes yourAth = new YourObjectAthletes(arr[0],arr[1],Integer.parseInt(arr[2]),Integer.parseInt(arr[3]),Double.parseDouble(arr[4]));
+	            	  YourObjectAthletes yourAth = new YourObjectAthletes(arr[1],arr[2],Integer.parseInt(arr[3]),Integer.parseInt(arr[4]),Double.parseDouble(arr[5]));
 	            	  yourAth.outputInformation();
 	            	  listAth.add(yourAth);
 	            	  line = br.readLine();
